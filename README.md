@@ -1,10 +1,11 @@
 # FOOP Final Project
-# Pet-Adventure
 ## The team members’ names and school IDs
 - B08902029 陳咏誼
 - B08902035 彭光湞
 - B08902036 楊鈞安
 - B08902057 陳奕瑄
+
+<!-- <br> -->
 
 ## How you divide the responsibilities of the team members
 
@@ -25,11 +26,25 @@
       - `assets/`, `utils/`, 所有`ImageState` 的 children
   - 撰寫報告 "Other packages that you have used" 及 "How to play your 2D game" 部份
 
+<!-- <br>
+<br>
+<br>
+<br> -->
+
 ## The relations between the classes that you design
 * 箭頭方向為父類別指向子類別
 * state, object資料夾下類別繁多，沒有全部顯示在圖上
 
 ![](https://i.imgur.com/Gev91QE.png)
+
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> -->
 
 ## The advantages of your design
 ### OOP part
@@ -54,16 +69,22 @@
 * 設計了封面選關選角，使得玩家有更多遊玩選擇，且關卡和角色皆可擴充，只要有新的角色圖檔，就能遊玩新的角色。
 * 設置暫停頁面，讓玩家可以暫停喘口氣或是重新遊玩。
 * 設有背景音樂和各式音效，提升玩家遊戲體驗。
+
+<!-- <br> -->
+
 ## The disadvantages of your design
 * `menu/` 裡的各個 class 比較沒有統整性。
 * `ImageIo` 裡的`path` 寫得太死。
-* `Pet` 的內容過多，不方便閱讀。  
+* `Pet` 的內容過多，不方便閱讀。 
 #### 未來可以改進的部分：
 * `menu/` 可以 implement 同一個 interface，再包裝得更好一點。
 * Pet 裡處理的事情過多，可以再拆分出來。
 * 因為有計分機制，可以 deploy 到網路上，結合資料庫，做出計分表。
 * 遊戲劇情表達不足
 * 未來可以新增2P
+
+<!-- <br> -->
+
 ## Other packages that you have used
 - `java.lang`
 - `java.awt`
@@ -73,11 +94,14 @@
 - `javx.swing`
 - `javax.imageio`
 - `javax.sound`
+
+<!-- <br> -->
+
 ## How to play your 2D game
 
 ### 背景故事
 小寵物跟小主人走丟了！還好小主人是個愛吃鬼，路上掉了許多餅乾，你可以協助小寵物沿著餅乾路線，避開路上的障礙找回小主人嗎？
-  
+
 ### 操作方法
 - ![](https://i.imgur.com/k1yFJpo.png =30x) ：跳躍。
 - ![](https://i.imgur.com/zImomMZ.png =30x) ：滑行。
@@ -104,34 +128,45 @@
 - 洞
     - ![](https://i.imgur.com/1OLMvyb.png =100x)![](https://i.imgur.com/Frp26Uo.png =100x)　：洞，掉入即死亡。
 
+<!-- <br>
+<br>
+<br> -->
+
 ### 遊戲流程
 - 主選單
 
-  選擇關卡難度及小寵物。
+    選擇關卡難度及小寵物。
 
-  ![](https://i.imgur.com/Mn6MuYE.png)
+    ![](https://i.imgur.com/Niy2zp8.png =480x)
 
 
 - 教學頁
 
-  ![](https://i.imgur.com/WitTrZs.png)
+    ![](https://i.imgur.com/rCspt7w.png =480x)
 
 
 - 遊戲畫面
 
-   ![](https://i.imgur.com/PdiSlPk.png)
+    ![](https://i.imgur.com/PdiSlPk.png =480x)
 
 - 暫停
 
-  ![](https://i.imgur.com/re8CCvm.png)
+    ![](https://i.imgur.com/re8CCvm.png =480x)
+
+<!-- <br>
+<br>
+<br> -->
 
 - 失敗
 
-   ![](https://i.imgur.com/y8wYt5U.png)
+    ![](https://i.imgur.com/y8wYt5U.png =480x)
+
 
 - 找到小主人了！
 
- ![](https://i.imgur.com/0pshVLm.png)
+    ![](https://i.imgur.com/0pshVLm.png =480x)
+
+<!-- <br> -->
 
 ## Music Resource (All Free)
 * Game Music:
